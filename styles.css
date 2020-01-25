@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(27, 161, 238);
+    font-family: sans-serif;
+}
+
+.container{
+    position: absolute;
+    height: auto;
+    width: 50vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 230, 6);
+    border: 2px solid darkblue;
+    padding: 0 2.5rem;
+    border-radius: 1rem;
+}
+
+.timer{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    margin: 2rem 0;
+}
+
+.content{
+    font-weight: bold;
+}
+
+.input{
+    border-radius: .4rem;
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 2rem;
+    margin: 1rem 0;
+    padding: .5rem;
+    font-size: large;
+    outline: none;
+    resize: none;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
